@@ -41,12 +41,12 @@ html {
 }
 
 .navcabecalho {
-  width: 100vw;
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
+    width: 100vw;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .navcabecalho a {

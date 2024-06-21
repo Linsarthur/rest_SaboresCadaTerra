@@ -9,7 +9,6 @@
 }
 
 html {
-    /*Colocar também COR*/
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
 }
@@ -18,7 +17,6 @@ html {
 .cabecalho {
     height: 35vh;
     background-color: #FCF9DA;
-    /* background: url(../img/LogoRestaurante.jpeg); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -28,21 +26,22 @@ html {
     align-items: center;
     position: relative;
 }
-.txtcabecalho{
+
+.txtcabecalho {
     text-decoration: none;
     display: flex;
     justify-content: center;
     font-size: 4rem;
     font-family: "Lobster Two", sans-serif;
-    
+
 }
 
-.txtdescricao{
+.txtdescricao {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    margin: 15px 0 0 0 ;
+    margin: 5% 0 0 0;
     font-weight: bold;
 }
 
@@ -51,15 +50,14 @@ html {
     display: flex;
     gap: 16px;
     justify-content: center;
-    background-color: ;
     position: absolute;
     bottom: 0;
-    margin: 0 100px 0 0 ;
+
 }
 
 .navcabecalho a {
     text-decoration: none;
-    padding: 8px;
+    padding: 1%;
     transition: 0.4s;
     color: black;
     align-self: center;
@@ -70,17 +68,28 @@ html {
     color: black;
 }
 
-.navinterno{
-    background-color: transparent;
-    height: 40px;
+.navinterno {
+    background-color: #FCF9DA;
+    border: 1px solid;
+    border-collapse: collapse;
+    height: 4vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: black;
 }
 
-.navinterno a{
+.navinterno a {
+    padding: 7px ;
     text-decoration: none;
+    color: black
 }
+
+.navinterno a:hover {
+    border: 2px solid black;
+    color: black;
+  }
+
 
 body {
     background: url(../img/Background.jpeg);
@@ -88,17 +97,21 @@ body {
     background-size: cover;
 }
 
-
+.regiaocabecalho {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
 
 
 .cards {
     background-color: #FCF9DA;
     margin: auto;
     width: 50vw;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 4%;
+    margin-bottom: 4%;
     border-radius: 8px;
-    padding: 16px;
+    /* padding: 4%; */
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -107,16 +120,17 @@ body {
 }
 
 
-.regioes{
+.regioes {
     display: flex;
-    /* flex-direction: column; */
+    padding: 16px;
+    
 }
 
-.regioes p{
-    padding: 25px;
+.regioes p {
+    padding: 2%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
 }
 
 .comida {
@@ -128,32 +142,38 @@ body {
 }
 
 
-.comida-norte{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: #FCF9DA;
     text-align: center;
 }
 
+@media (max-width: 480px) {
+    .cards{
+        width: 80vw;
+    }
+    .regioes{
+        flex-direction: column;
+    }
 
+}
 
+@media (min-width: 481px) and (max-width: 768px){
+    .cards{
+        width: 80vw;
+    }
+    .regioes{
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px){
+    .cards{
+        width: 80vw;
+    }
+    .regioes{
+        flex-direction: column;
+    }
+
+}

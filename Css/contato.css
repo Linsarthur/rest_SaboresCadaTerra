@@ -37,6 +37,7 @@ body {
 
 .descricao {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .navcabecalho {
@@ -81,7 +82,7 @@ body {
 }
 
 .eventos-tematicos {
-  background-color: #fff;
+  background-color: #fcf9da;
   padding: 20px;
   text-align: center;
 }
@@ -100,7 +101,6 @@ body {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
-  flex-wrap: wrap;
 }
 
 .imagens-eventos img {
@@ -108,12 +108,14 @@ body {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info-contato {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #ece6ad;
   text-align: center;
+  border-radius: 8px;
 }
 
 .info-contato h2 {
@@ -139,8 +141,9 @@ body {
 
 .form-contato {
   padding: 20px;
-  background-color: #fff;
+  background-color: #ece6ad;
   text-align: center;
+  border-radius: 8px;
 }
 
 .form-contato h2 {
@@ -177,7 +180,7 @@ body {
 
 .form-contato button {
   padding: 10px 20px;
-  background-color: lightblue;
+  background-color: #f5f5f5;
   color: black;
   border: none;
   border-radius: 4px;
@@ -186,7 +189,7 @@ body {
 }
 
 .form-contato button:hover {
-  background-color: #007bff;
+  background-color: #b3a20ae3;
   color: white;
 }
 
@@ -222,7 +225,7 @@ body {
 }
 
 .redes-sociais a:hover {
-  color: #007bff;
+  color: #b3a20ae3;
 }
 
 footer {
@@ -235,13 +238,15 @@ footer p {
   font-size: 0.9rem;
 }
 
-/* Media Queries */
 @media (max-width: 480px) {
   .central {
-    width: 80%;
+    width: 90%;
   }
   .imagem {
-    width: 80%;
+    width: 90%;
+  }
+  html {
+    font-size: 14px;
   }
 }
 
@@ -250,10 +255,10 @@ footer p {
     width: 80vw;
   }
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
   .imagem {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -262,6 +267,9 @@ footer p {
     width: 70vw;
   }
   html {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .imagem {
+    width: 70%;
   }
 }

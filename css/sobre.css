@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    /*Colocar também COR*/
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.cabecalho {
+    height: 30vh;
+    background-color: lightsteelblue;
+    /* background: url("https://picsum.photos/300"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.titulo {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: "Lobster Two", sans-serif;
+}
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcabecalho {
+    width: 100vw;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+}
+
+.navcabecalho a {
+    text-decoration: none;
+    padding: 8px;
+    transition: 0.4s;
+    color: white;
+    align-self: center;
+    /* border: 4px solid white; */
+    /* border-radius: 8px; */
+}
+
+.navcabecalho a:hover {
+    background-color: lightblue;
+    color: black;
+}

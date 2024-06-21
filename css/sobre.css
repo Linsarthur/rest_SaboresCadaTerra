@@ -1,129 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 html {
-    /*Colocar também COR*/
-    font-size: 16px;
-    font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .cabecalho {
-    height: 30vh;
-    background-color: #FCF9DA;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  height: 30vh;
+  background-color: #fcf9da;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .titulo {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    font-size: 4rem;
-    font-family: "Lobster Two", sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: "Lobster Two", sans-serif;
 }
+
 .descricao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navcabecalho {
-    width: 100vw;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    background-color: ;
-    position: absolute;
-    bottom: 0;
+  width: 100vw;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .navcabecalho a {
-    text-decoration: none;
-    padding: 8px;
-    color: black;
-    align-self: center;
+  text-decoration: none;
+  padding: 8px;
+  color: black;
+  align-self: center;
 }
 
 .navcabecalho a:hover {
-    border: 2px solid black;
-    color: black;
+  border: 2px solid black;
+  color: black;
 }
 
 .central {
-    background-color: #FCF9DA;
-    margin: auto;
-    width: 50vw;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    box-shadow: 0px 0px 8px 3px;
+  background-color: #fcf9da;
+  margin: auto;
+  width: 50vw;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  box-shadow: 0px 0px 8px 3px;
 }
 
-.textos h3{
-    padding-top: 16px;
+.textos h3 {
+  padding-top: 16px;
 }
 
 body {
-    background: url(../img/Background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../img/Background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .imagem {
-    margin: auto;
-    width: 50%;
-    border-radius: 8px;
-    display: flex;
+  margin: auto;
+  width: 50%;
+  border-radius: 8px;
+  display: flex;
 }
 
 footer {
-    background-color: #FCF9DA;
-    text-align: center;
+  background-color: #fcf9da;
+  text-align: center;
 }
 
-@media (max-width: 480px){
-    .central {
-        width: 80%;
-    }
-    .imagem {
-        width: 80%;
-    }
+@media (max-width: 480px) {
+  .central {
+    width: 80%;
+  }
+  .imagem {
+    width: 80%;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .central {
-        width: 80vw;
-    }
-    html {
-        font-size: 24px;
-    }
-    .imagem {
-        width: 70%;
-    }
+  .central {
+    width: 80vw;
+  }
+  html {
+    font-size: 24px;
+  }
+  .imagem {
+    width: 70%;
+  }
 }
 
-@media (min-width: 769px) and (max-width:1279px) {
-    .central {
-        width: 70vw;
-    }
-    html {
-        font-size: 24px;
-    }
+@media (min-width: 769px) and (max-width: 1279px) {
+  .central {
+    width: 70vw;
+  }
+  html {
+    font-size: 24px;
+  }
 }

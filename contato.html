@@ -1,9 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=ppp, initial-scale=1.0" />
-    <title>Contato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Sabores de Cada Canto</title>
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="logo" href="img/LogoRestaurante.jpeg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="cabecalho">
+      <div>
+        <h1 class="titulo">Contato</h1>
+        <p class="descricao">Estamos aqui para ajudar!</p>
+      </div>
+      <nav class="navcabecalho">
+        <a href="index.html"
+          ><span class="material-symbols-outlined">home</span>Início</a
+        >
+        <a href="contato.html"
+          ><span class="material-symbols-outlined">call</span>Contato</a
+        >
+        <a href="sobre.html"
+          ><span class="material-symbols-outlined">info</span>Sobre Nós</a
+        >
+      </nav>
+    </header>
+    <main class="central">
+      <section class="eventos-tematicos">
+        <h2>Eventos Particulares Temáticos</h2>
+        <p>
+          Faça do seu evento uma experiência única conosco. Oferecemos serviços
+          para eventos particulares com temáticas variadas que celebram a
+          diversidade da culinária brasileira.
+        </p>
+        <div class="imagens-eventos">
+          <img
+            src="img/frenteRestaurante.jpeg"
+            alt="Fachada do Restaurante Sabores de Cada Canto"
+          />
+          <img
+            src="img/interior_restaurante_1.jpeg"
+            alt="Fachada do Restaurante Sabores de Cada Canto"
+          />
+        </div>
+      </section>
+
+      <!-- Seção de Informações de Contato -->
+      <section class="info-contato">
+        <h2>Entre em Contato Conosco</h2>
+        <p>
+          Para reservas, eventos, dúvidas ou sugestões, entre em contato
+          conosco:
+        </p>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined">phone</span>Telefone: (055)
+            1234-6532
+          </li>
+          <li>
+            <span class="material-symbols-outlined">email</span>Email:
+            <a href="mailto:contato@saboresdecadacanto.com.br"
+              >contato@saboresdecadacanto.com.br</a
+            >
+          </li>
+          <li>
+            <span class="material-symbols-outlined">location_on</span>Endereço:
+            Rua dos Sabores, 123, Centro, Cidade - Estado, CEP 12345-678
+          </li>
+        </ul>
+      </section>
+
+      <section class="form-contato">
+        <h2>Envie uma Mensagem</h2>
+        <form action="enviar_mensagem.php" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <!-- Seção de Redes Sociais -->
+      <section class="redes-sociais">
+        <h2>Siga-nos nas Redes Sociais</h2>
+        <ul>
+          <li>
+            <a href="https://instagram.com/saboresdecadacanto" target="_blank"
+              ><span class="material-symbols-outlined">camera_alt</span
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://facebook.com/saboresdecadacanto" target="_blank"
+              ><span class="material-symbols-outlined">facebook</span
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/saboresdecadacanto" target="_blank"
+              ><span class="material-symbols-outlined">alternate_email</span
+              >Twitter</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p>&copy;2024 Sabores de Cada Canto. Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>

@@ -41,7 +41,7 @@ html {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    margin: 5% 0 0 0;
+    margin: 5px 0 0 0;
     font-weight: bold;
 }
 
@@ -149,6 +149,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .txtdescricao{
+        font-size: 14px;
+        margin: 0 0 35px 0;
+    }
+
     .cards{
         width: 80vw;
     }
@@ -159,6 +164,16 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 768px){
+    .txtdescricao{
+        font-size: 14px;
+        margin: 0 0 35px 20px;
+    }
+    
+    .txtcabecalho{
+        font-size: 45px;
+        margin: 0 0 35px 0;
+    }
+
     .cards{
         width: 80vw;
     }
@@ -169,6 +184,10 @@ footer {
 }
 
 @media (min-width: 769px) and (max-width: 1279px){
+    .txtdescricao{
+        margin: 35px;
+    }
+    
     .cards{
         width: 80vw;
     }

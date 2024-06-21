@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@300&family=Playwrite+ES:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CO:wght@300&family=Playwrite+ES:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CO:wght@300&family=Playwrite+ES:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.cabecalho{
+    background: url(https://picsum.photos/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.titulo{
+    /* display:flex; */
+    /* margin: auto; */
+     margin-top: 80px;
+     font-size: 4rem; 
+     justify-content: center;
+    font-family: "Lobster two";
+    
+}
+
+.descricao{
+    /* display: flex; */
+    margin: auto;
+    margin-left: 300px;
+}
+
+ .navexternos{
+    /* display: flex; */
+    /* justify-content: end; */
+    height: 25px;
+    margin-top: 140px;
+    gap: 16px;
+    
+} 
+
+.navcardapio{
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    
+}
+
+.cardapio{
+    background-color: red;
+    margin: auto;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    box-shadow: 0px 0px 5px 5px;
+}
+
+.regiao{
+    
+    height: 50px;
+    display: flex;
+    gap: 50px;
+}
+

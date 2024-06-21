@@ -16,8 +16,8 @@ html {
 
 .cabecalho {
     height: 30vh;
-    background-color: lightsteelblue;
-    /* background: url("https://picsum.photos/300"); */
+    background-color: #FCF9DA;
+    /* background: url(../img/LogoRestaurante.jpeg); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -57,11 +57,65 @@ html {
     transition: 0.4s;
     color: white;
     align-self: center;
-    /* border: 4px solid white; */
-    /* border-radius: 8px; */
 }
 
 .navcabecalho a:hover {
-    background-color: lightblue;
+    background-color: #FCF9DA;
     color: black;
+}
+
+.central {
+    background-color: #FCF9DA;
+    margin: auto;
+    width: 50vw;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    box-shadow: 0px 0px 8px 3px;
+}
+
+.textos h3{
+    padding-top: 16px;
+}
+
+
+.imagem {
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    display: flex;
+}
+
+@media (max-width: 480px){
+    .central {
+        width: 80%;
+    }
+    .imagem {
+        width: 80%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .central {
+        width: 80vw;
+    }
+    html {
+        font-size: 24px;
+    }
+    .imagem {
+        width: 70%;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1279px) {
+    .central {
+        width: 70vw;
+    }
+    html {
+        font-size: 24px;
+    }
 }

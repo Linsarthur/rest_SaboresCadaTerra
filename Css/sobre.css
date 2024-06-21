@@ -98,6 +98,8 @@ footer {
   text-align: center;
 }
 
+/*Media*/
+
 @media (max-width: 480px) {
   .central {
     width: 80%;

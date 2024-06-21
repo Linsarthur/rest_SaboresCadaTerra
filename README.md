@@ -33,7 +33,7 @@ Nosso menu é cuidadosamente elaborado para representar a diversidade culinária
 ### Sudeste
 
 - **Feijoada**: Um clássico prato de feijão preto com diversas partes de carne de porco, servido com arroz, couve refogada e farofa.
-- **Tutu de Feijão**: Purê de feijão temperado com alho, cebola e bacon, servido com arroz, linguiça e couve.
+- **Frango com Quiabo**: Frango, quiabo, cebola, tomate, alho, pimenta do reino e açafrão.
 
 ### Sul
 

@@ -1,4 +1,3 @@
-# rest_SaboresCadaTerra
 # Sabores de Cada Canto
 
 Bem-vindo ao **Sabores de Cada Canto**, onde celebramos a rica e diversa culinária regional do Brasil. Nosso restaurante oferece uma viagem gastronômica através dos sabores únicos de cada canto do país, desde o norte ao sul, leste ao oeste.
@@ -45,7 +44,7 @@ Nosso menu é cuidadosamente elaborado para representar a diversidade culinária
 Estamos localizados no coração da cidade, prontos para receber você e sua família para uma refeição inesquecível. 
 
 - **Endereço**: Rua dos Sabores, 123, Centro, Cidade - Estado, CEP 12345-678
-- **Telefone**: (xx) 1234-xxxx
+- **Telefone**: (055) 1234-6532
 - **Email**: [contato@saboresdecadacanto.com.br](mailto:contato@saboresdecadacanto.com.br)
 
 ## Horário de Funcionamento
@@ -67,7 +66,7 @@ Siga-nos nas redes sociais para ficar por dentro das novidades, promoções e ev
 Para reservas, dúvidas ou sugestões, entre em contato conosco:
 
 - **Email**: [contato@saboresdecadacanto.com.br](mailto:contato@saboresdecadacanto.com.br)
-- **Telefone**: (xx) xxxx-xxxx
+- **Telefone**: (055) 1234-6532
 
 Agradecemos pela sua visita e esperamos vê-lo em breve no Sabores de Cada Canto!
 

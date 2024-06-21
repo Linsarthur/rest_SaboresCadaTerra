@@ -245,8 +245,18 @@ footer p {
   .imagem {
     width: 90%;
   }
-  html {
-    font-size: 14px;
+  .form-contato form {
+    width: 100%;
+  }
+  .form-contato input[type="text"],
+  .form-contato input[type="email"],
+  .form-contato textarea {
+    font-size: 0.875rem;
+  }
+  .info-contato ul li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
   }
 }
 

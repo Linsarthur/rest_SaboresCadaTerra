@@ -42,12 +42,12 @@ html {
 }
 
 .navcabecalho {
-    width: 100vw;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
+  width: 100vw;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .navcabecalho a {
@@ -117,7 +117,6 @@ footer {
   .imagem {
     width: 70%;
   }
-  
 }
 
 @media (min-width: 769px) and (max-width: 1279px) {
